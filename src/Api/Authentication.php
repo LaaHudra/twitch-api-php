@@ -42,4 +42,15 @@ trait Authentication
             'state' => $state,
         ]);
     }
+	
+	
+	/**
+     * Get a user's access credentials status
+     *
+     * @param string $accessToken
+     */
+    public function getTokenStatus($accessToken)
+    {
+        return $this->get('', [], $accessToken);
+    }
 }
