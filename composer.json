@@ -1,10 +1,16 @@
 {
-    "name": "nicklaw5/twitch-api-php",
+    "name": "laahudra/twitch-api-php",
     "type": "library",
     "description": "A Twitch API client for PHP.",
     "keywords": ["twitch", "twitch.tv", "twitch-tv", "twitch-api", "api"],
-    "homepage": "http://github.com/nicklaw5/twitch-api-php",
-    "license": "MIT",
+    "homepage": "http://github.com/laahudra/twitch-api-php",
+    "license": "MIT",	  
+    "repositories": [  
+        {  
+            "type": "vcs",  
+            "url": "https://github.com/nicklaw5/twitch-api-php"  
+        }  
+    ], 
     "authors": [
         {
             "name": "Nicholas Law",
@@ -13,7 +19,7 @@
     ],
     "require": {
         "php": ">=5.6.0",
-        "guzzlehttp/guzzle": "~6.0"
+        "nicklaw5/twitch-api-php": "0.1.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
